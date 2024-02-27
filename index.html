@@ -4,31 +4,39 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="public/assets/css/index.css">
-        <link rel="shortcut icon" href="public/assets/imgs/logo.svg" type="image/svg+xml">
-        <title>Support Ticket System</title>
+        <link rel="shortcut icon" href="public/assets/imgs/logo.png" type="image/svg+xml">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>STicket</title>
     </head>
     <body>
+        <div class="background"></div>
         <header>
             <div class="container">
                 <figure class="logo__figure">
-                    <img class="logo" src="/public/assets/imgs/logo.svg">
-                    <p>STS</p>
+                    <img src="/public/assets/imgs/logo.PNG" class="logo__img">
+                    <p><span>S</span>Ticket</p>
+                    <button class="btn menu"><i class="bi bi-list"></i></button>
                 </figure>
+                <div class="buttons">
+                    <div class="logo__content">
+                        <figure class="logo__figure">
+                            <img src="/public/assets/imgs/logo.PNG" class="logo__img">
+                            <p><span>S</span>Ticket</p>
+                        </figure>
+                        <button class="exit"><i class="bi bi-x"></i></button>
+                    </div>
+                    <a class="btn selected" href="#">Home</a>
+                    <a class="btn" href="#">About</a>
+                    <a class="btn" href="#">Contact</a>
+                </div>
+                <div class="login">
+                    <a href="#" class="btn">
+                        <i class="icon bi bi-box-arrow-in-right"></i>
+                        Login
+                    </a>
+                </div>
             </div>
         </header>
-        <section>
-            <div class="container">
-                <div class="izquierda">
-                    <h3 class="titulo">Support Ticket System</h3>
-                    <p>Soporte Técnico a tu alcance</p>
-                    <p>Accede con una cuenta proporcionada por tu empresa</p>
-                    <a href="#" class="acceder">Acceder</a>
-                </div>
-                <div class="derecha">
-                    <img src="public/assets/imgs/image-01.png">
-                </div>
-            </div>
-        </section>
-        <script type="module" src="public/assets/js/index.js"></script>
+        <script src="public/assets/js/index.js"></script>
     </body>
 </html>
