@@ -3,25 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="/assets/imgs/logo-CFI2XjQ0.PNG" type="image/svg+xml">
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="shortcut icon" href="../imgs/logo.png" type="image/svg+xml">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>STicket</title>
-      <script type="module" crossorigin src="/assets/js/index-D5Sxq89o.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/css/index-uQyof54d.css">
     </head>
     <body>
         <div class="background"></div>
         <header>
             <div class="container">
                 <figure class="logo__figure">
-                    <img src="/assets/imgs/logo-CFI2XjQ0.PNG" class="logo__img">
+                    <img src="../imgs/logo.PNG" class="logo__img">
                     <p><span>S</span>Ticket</p>
                     <button class="btn menu"><i class="bi bi-list"></i></button>
                 </figure>
                 <div class="buttons">
                     <div class="logo__content">
                         <figure class="logo__figure">
-                            <img src="/assets/imgs/logo-CFI2XjQ0.PNG" class="logo__img">
+                            <img src="../imgs/logo.PNG" class="logo__img">
                             <p><span>S</span>Ticket</p>
                         </figure>
                         <button class="exit"><i class="bi bi-x"></i></button>
@@ -30,28 +29,17 @@
                     <a class="btn" href="#">About</a>
                     <a class="btn" href="#">Contact</a>
                 </div>
-                <div class="login">
-                    <a href="#" class="btn">
-                        <i class="icon bi bi-box-arrow-in-right"></i>
-                        Login
-                    </a>
+                <div class="perfil">
+                    <p>YA</p>
                 </div>
             </div>
         </header>
         <section>
-            <div class="container">
-                <form>
-                    <h3>Login</h3>
-                    <div class="input">
-                        <input class="username" type="text" placeholder="Usuario">
-                        <i class="bi bi-person-fill"></i>
-                    </div>
-                    <div class="input">
-                        <input class="username" type="password" placeholder="Contraseña">
-                        <i class="bi bi-lock-fill"></i>
-                    </div>
-                    <a class="btn-login" href="#">Login</a>
-                </form>
+            <div class="section__header">
+                <div class="container">
+                    <h3>Mis Tickets</h3>
+                    <p class="sections"><span>Home</span> / <span>Mis Tickets</span> / <span>Solicitar Ticket</span> / <span>Perfil</span></p>
+                </div>
             </div>
         </section>
         <footer>
@@ -71,5 +59,7 @@
                 <p>Support Ticket System © 2024</p>
             </div>
         </footer>
+        <script type="module" src="../js/index.js"></script>
+        <script type="module" src="../js/home.js"></script>
     </body>
 </html>
