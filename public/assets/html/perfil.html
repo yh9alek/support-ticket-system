@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/perfil.css">
+        <link rel="shortcut icon" href="../imgs/logo.PNG" type="image/png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>STicket</title>
+    </head>
+    <body>
+        <div class="background"></div>
+        <header>
+            <div class="container">
+                <figure class="logo__figure">
+                    <img src="../imgs/logo.PNG" class="logo__img">
+                    <p><span>S</span>Ticket</p>
+                    <button class="btn menu"><i class="bi bi-list"></i></button>
+                </figure>
+                <div class="buttons">
+                    <div class="logo__content">
+                        <figure class="logo__figure">
+                            <img src="../imgs/logo.PNG" class="logo__img">
+                            <p><span>S</span>Ticket</p>
+                        </figure>
+                        <button class="exit"><i class="bi bi-x"></i></button>
+                    </div>
+                    <a class="btn selected" href="#">Home</a>
+                    <a class="btn" href="#">About</a>
+                    <a class="btn" href="#">Contact</a>
+                </div>
+                <a class="perfil" href="../html/perfil.html">
+                    <p>YA</p>
+                </a>
+            </div>
+        </header>
+        <section>
+            <div class="section__header">
+                <div class="container">
+                    <h3>Perfil</h3>
+                    <p class="sections"><a href="./home.html">Mis Tickets</a> / <a href="./solicitud.html">Solicitar Ticket</a> / <a href="../html/perfil.html">Perfil</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="perfil__section">
+            <div class="container">
+                <div class="_perfil">
+                    <div class="col1">
+                        <div class="foto">
+                            <div class="foto__content">
+                                <div class="foto__letras">
+                                    YA
+                                </div>
+                            </div>
+                            <p>@YohanAlek</p>
+                            <p>Trabajador - Empleado</p>
+                        </div>
+                        <div class="tickets">
+                            <div>
+                                <p class="misTickets">Mis Tickets</p>
+                                <p class="numeroTickets">30</p>
+                            </div>
+                            <div class="linea"></div>
+                            <div class="tipos">
+                                <p>Regular</p>
+                                <p>10</p>
+                            </div>
+                            <div class="tipos">
+                                <p>Medio</p>
+                                <p>10</p>
+                            </div>
+                            <div class="tipos">
+                                <p>Crítico</p>
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="col2">
+                        <p class="infoPerfil">Información de Perfil</p>
+                        <div class="linea"></div>
+                        <div class="inputs">
+                            <div class="input">
+                                <p>Nombre</p>
+                                <input class="inp usuario" type="text" placeholder="Yohan Alek Plazola Arangure" readonly>
+                            </div>
+                            <div class="input">
+                                <p>Correo Electrónico</p>
+                                <input class="inp correo" type="email" placeholder="yh9dev@gmail.com" readonly>
+                            </div>
+                            <div class="input">
+                                <p>Número Celular</p>
+                                <div class="numeroCelular">
+                                    <input class="inp codigo" type="number" min="0" placeholder="52" readonly></input>
+                                    <input class="inp celular" type="text" placeholder="6691087456" readonly>
+                                    <p>+</p>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <p>Puesto</p>
+                                <input class="inp puesto" type="text" placeholder="Front-end Dev" readonly>
+                            </div>
+                            <div class="input">
+                                <p>Departamento</p>
+                                <input class="inp departamento" type="text" placeholder="Informática" readonly>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="r1">
+                    <p>FAQ</p>
+                    <p>Terms</p>
+                    <p>Changelog</p>
+                </div>
+                <div class="icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+                <p>Support Ticket System © 2024</p>
+            </div>
+        </footer>
+        <script type="module" src="../js/index.js"></script>
+        <script type="module" src="../js/perfil.js"></script>
+    </body>
+</html>
