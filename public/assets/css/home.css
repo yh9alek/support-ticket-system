@@ -166,7 +166,11 @@ header > .container {
     margin-bottom: 12px;
 }
 
-.sections > span:nth-of-type(3) {
+.sections > a {
+    color: #fff;
+}
+
+.sections > a:nth-of-type(1) {
     font-weight: bold;
 }
 
@@ -182,6 +186,18 @@ header > .container {
     color: #303030;
     padding: 5px 5px 5px 0px;
     margin-bottom: 15px;
+}
+
+.prioridad.regular {
+    background-color: #63dc4b;
+}
+
+.prioridad.medio {
+    background-color: #dc984b;
+}
+
+.prioridad.critico {
+    background-color: #dc4b4b;
 }
 
 .solicitar:hover {
@@ -239,7 +255,6 @@ header > .container {
 }
 
 .ticket > .prioridad {
-    background-color: #dc4b4b;
     padding: 7px 8px 3px;
     width: max-content;
     border-radius: 5px;
