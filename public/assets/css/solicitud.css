@@ -52,7 +52,7 @@ header > .container {
 }
 
 .logo__img + p > span {
-    color: #1455D5;
+    color: #376bd3;
 }
 
 .buttons {
@@ -103,7 +103,7 @@ header > .container {
 
 .btn.selected {
     color: #fff;
-    background-color: #1455D5;
+    background-color: #376bd3;
 }
 
 .btn:not(.selected):hover {
@@ -155,7 +155,7 @@ header > .container {
 .section__header {
     height: 150px;
     color: #fff;
-    background-color: #1455D5;
+    background-color: #376bd3;
     padding: 50px 0;
 }
 
@@ -257,7 +257,7 @@ form {
 }
 
 .descripcion:focus {
-    outline: 1px solid #1455D5;
+    outline: 1px solid #376bd3;
 }
 
 .iconos {
@@ -361,7 +361,7 @@ footer {
 }
 
 .r1 > p:hover, .icons > i:hover {
-    color: #1455D5;
+    color: #376bd3;
     cursor: pointer;
 }
 
