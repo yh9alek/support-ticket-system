@@ -494,6 +494,17 @@ header > .container {
     gap: 10px;
 }
 
+.edit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.edit > a:hover {
+    text-decoration: underline;
+}
+
 /* - */
 
 footer {
@@ -627,6 +638,15 @@ footer {
 @media screen and (max-width: 378px) {
     form {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .edit {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 10px;
     }
 }
 
